@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: poojansds/webapp:8
+        image: poojansds/webapp:16
         ports:
         - containerPort: 80
