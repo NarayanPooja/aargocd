@@ -5,7 +5,7 @@ metadata:
   labels:
     role: app 
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       role: app 
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: poojansds/webapp:v1
+        image: nginx:latest
         ports:
         - containerPort: 80
